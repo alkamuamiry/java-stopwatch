@@ -43,9 +43,7 @@ public class Stopwatch  extends frame{
         p.add(pane,BorderLayout.CENTER);
         abc.gridx =0;
         abc.gridy = 0;
-        abc.weighty = 40;
         abc.gridwidth = 5;
-        abc.gridheight = 10;
         add(p,abc);
       
     }
