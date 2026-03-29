@@ -1,7 +1,6 @@
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
 import javax.swing.Timer;
 import java.util.TimerTask;
 import java.awt.BorderLayout;
@@ -14,7 +13,6 @@ import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.time.LocalTime;
-
 public class Stopwatch  extends frame{
     JButton stopbtn;
     JButton labbtn;
@@ -28,13 +26,11 @@ public class Stopwatch  extends frame{
     }
     @Override
     void build() {
-
         setLayout(new GridBagLayout());
         GridBagConstraints abc = new GridBagConstraints();
         abc.insets  = new Insets(5,5,5,5);
         JPanel p = new JPanel();
         p.setLayout(new BorderLayout());
-        
         p.add(labtimer(),BorderLayout.NORTH);
         JPanel pane = new JPanel();
         pane.setLayout(new GridLayout(1,3,10,10));
@@ -79,7 +75,7 @@ timer.start();
                     timer.restart();
                     stopbtn.setText("Stop");
                 }
-                // TODO Auto-generated method stub
+                
                 throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
             }
             

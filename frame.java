@@ -1,5 +1,4 @@
 import java.awt.GridBagConstraints;
-
 import  javax.swing.*;
 public class frame extends JFrame {
     GridBagConstraints abc;
@@ -10,7 +9,7 @@ public class frame extends JFrame {
         setTitle(name);
         
     }
-    void build(){}
+    void build(){}// this is the buld method that build the ui component
 
     
 }
